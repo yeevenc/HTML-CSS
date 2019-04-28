@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>如何隐藏一个元素</title>
+    <style>
+        .a {
+            visibility: hidden;
+        }
+        /* 不显示一个元素 */
+        
+        .b {
+            display: none;
+        }
+        /* display 属性的值为 "inline"的结果 两个元素显示在同一水平线上。 */
+        
+        p {
+            display: inline;
+        }
+        /* display 属性值为 "block" 的结果这两个元素之间的换行符。 */
+        
+        span {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="a">这是一个隐藏标题</h1>
+    <h2 class="b">不显示</h2>
+    <p>123</p>
+    <p>123456</p>
+    <span>12345</span><span>7890</span>
+</body>
+
+</html>
